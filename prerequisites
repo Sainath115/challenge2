@@ -1,0 +1,3 @@
+We can run this script only inside a VM for which we need meta data ,since meta data contains sensitive information.
+
+This data is not accessible outside the VM
