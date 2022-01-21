@@ -1,0 +1,44 @@
+
+below keys you can pass .for eg name,location,osProfile,storageProfile,tags and so on
+
+Running the script and providing a valid key
+
+[azureadmin@cap-eastus2-poc-app-vm-01 sainath]$ ./script.sh
+
+Enter valid key: vmId
+
+vmId
+
+a9c04420-4ea9-4d36-a796-797b
+
+[azureadmin@cap-eastus2-poc-app-vm-01 sainath]$
+
+ 
+
+ 
+
+[azureadmin@cap-eastus2-poc-app-vm-01 sainath]$ ./script.sh
+
+Enter valid key: osProfile
+
+osProfile
+
+{
+
+  "adminUsername": "azureadmin",
+
+  "computerName": "cap-eastus2-poc-app-vm-01",
+
+  "disablePasswordAuthentication": "false"
+
+}
+
+ 
+
+[azureadmin@cap-eastus2-poc-app-vm-01 sainath]$ ./script.sh
+
+Enter valid key: vmSize
+
+vmSize
+
+Standard_B2ms
